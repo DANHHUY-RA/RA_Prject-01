@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piano page</title>
+    <link rel="stylesheet" href="./piano.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Relax Music For life</h1>
+      <img src="./img/music-icon2.jpeg" width="100%" height="400px" />
+    </header>
+    <main>
+      <!-- background music -->
+      <audio autoplay loop controls>
+        <source src="./music/Beautiful Piano.mp3" />
+      </audio>
+      <!--digital clock  -->
+
+      <div id="digital-clock">
+        <div id="clock-time" class="block-time">hour</div>
+      </div>
+      <br />
+      <br />
+
+      <!-- main content  -->
+      <article>
+        <div class="container">
+          <p class="caption">Piano list</p>
+          <ul class="list">
+            <li>Piano 1</li> <button>ADD playlist</button>
+            <li>Piano 2</li> <button>ADD playlist</button>
+            <li>Piano 3</li> <button>ADD playlist</button>
+          </ul>
+          <br>
+          <br>
+          <div class="playlist">
+            <p class="caption">Play list</p>
+            <ul>
+              <li>Piano 1</li><button>del</button>
+              <li>Piano 2</li><button>del</button>
+              <li>Piano 3</li><button>del</button>
+            </ul>
+      </article>
+    </main>
+    <script src="./web.js"></script>
+  </body>
+</html>
